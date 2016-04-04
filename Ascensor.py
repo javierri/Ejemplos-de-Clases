@@ -76,10 +76,10 @@ class Ascensor:
 	def llamar(self, piso):
 		pass
 	
-	def ingresa_persona(self):
+	def ingresa_persona(self, nro_personas = 1):
 		pass
 	
-	def sale_persona(self):
+	def sale_persona(self, nro_personas = 1):
 		pass
 		
 
