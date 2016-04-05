@@ -1,7 +1,7 @@
 # Metodo de Clase Ascensor
 # Observación: Ver en https://repl.it/CBkF/0
 # Autor: Javier Rivera (UNEFA Mérida)
-
+# Observación: Para poder correrlo y que funcione, deben implementarse los métodos vácios
 
 class Ascensor:
 
@@ -61,6 +61,10 @@ class Ascensor:
 			print "Exceso de personas"
 			return
 		
+		if (self.nro_personas == 0):
+			print "Envio incorrecto, el ascensor esta vacio"
+			return
+		
 		self.cerrar_puerta()
 		
 		if (self.numero_piso < piso):
@@ -89,5 +93,9 @@ a = Ascensor()
 a.encender()
 
 # PISOS
+a.ingresa_persona(1)
 a.enviar (7)
+a.sale_persona(1)
+a.ingresa_persona(2)
 a.enviar (3)
+a.sale_persona(2)
