@@ -1,5 +1,5 @@
 # Metodo de Clase Ascensor
-# Observación: Ver en https://repl.it/CBkF/0
+# Observación: Ver en https://repl.it/CBkF/1
 # Autor: Javier Rivera (UNEFA Mérida)
 # Observación: Para poder correrlo y que funcione, deben implementarse los métodos vácios
 
