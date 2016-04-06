@@ -29,13 +29,13 @@ class Hora:
         else:
             print "Error en asignacion de minutos"
             
-    def suma_min (self, m):
+    def suma_min (self, m = 1):
         mint = self.__min + m
         self.__min = mint % 60
         horas = mint / 60
         
         if (not self.__hora_militar and self.__turno == "PM"):
-            self.__hora = self.__hora + 12
+            self.__hora = self.__hora + 12 
             
         self.__hora = (self.__hora + horas) % 24
         
@@ -53,6 +53,15 @@ class Hora:
         if (not self.__hora_militar):
             print self.__turno,
         print
+        
+    def resta_hora (self, hora):
+        pass
+    
+    def compara_hora (self,hora):
+        pass
+    
+    def resta_min (self, m = 1):
+        pass
         
 #PRINCIPAL
 
