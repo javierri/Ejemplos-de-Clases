@@ -1,3 +1,6 @@
+# Autor: Javier Rivera (UNEFA=
+# https://repl.it/CMqN
+
 class Gato:
     def __init__ (self, raza = None, color = None, sexo = 'M', peso = 0):
         self.__edad = 0
