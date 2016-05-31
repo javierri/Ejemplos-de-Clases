@@ -35,8 +35,17 @@ class Animal:
 		self.__crias = max_crias
      
     def asigna_sonido(self, sonido):
-		self.__sonido = sonido      
-    #        
+		self.__sonido = sonido  
+		
+    def especie(self):
+        return self.__especie   
+        
+    def peso(self):
+        return self.__peso  
+        
+    def morir(self):
+        self.__vivo = False   
+    ##        
             
     def comer (self,comida=5):
         if (comida > 0 and comida < 10):
